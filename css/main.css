@@ -4,3 +4,26 @@
 	font-family: Arial, sans-serif;
 	
 }
+
+nav {
+	background-color: rgba(155, 200, 50, 0.85);
+	height: 4em;
+	position: fixed;
+	width: 100%;
+
+
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 2em;
+	font-variant: small-caps;
+	font-size: 2em;
+	padding: 0 .5em;
+}
+
+div {
+	width: 80%;
+	margin: 0em auto;
+
+}
