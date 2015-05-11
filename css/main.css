@@ -6,7 +6,7 @@
 }
 
 nav {
-	background-color: rgba(155, 200, 50, 0.85);
+	background-color: rgba(50, 100, 250, 0.9);
 	height: 4em;
 	position: fixed;
 	width: 100%;
@@ -20,10 +20,11 @@ nav ul li{
 	font-variant: small-caps;
 	font-size: 2em;
 	padding: 0 .5em;
+	font-family: arial, sans-serif;
 }
 
 div {
 	width: 80%;
 	margin: 0em auto;
 
-}
+} 
