@@ -5,6 +5,11 @@
 	
 }
 
+body{
+background-color: #1122dd;
+
+}
+
 nav {
 	background-color: rgba(50, 100, 250, 0.9);
 	height: 4em;
@@ -21,10 +26,15 @@ nav ul li{
 	font-size: 2em;
 	padding: 0 .5em;
 	font-family: arial, sans-serif;
+} 
+
+section#logo_holder {
+	padding: 4em 0em;
 }
 
-div {
-	width: 80%;
+div#content{
+	background-color: #ffddaa;
+	width: 50%;
 	margin: 0em auto;
-
-} 
+	padding: 4em 8em;
+}
