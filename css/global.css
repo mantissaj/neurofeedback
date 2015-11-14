@@ -5,7 +5,7 @@
 	
 }
 
-body{
+body {
 background-color: #9cbdd5;
 
 }
@@ -18,8 +18,7 @@ nav {
 
 }
 
-nav ul li{
-	display: inline-block;
+nav ul li {
 	line-height: 2em;
 	font-variant: small-caps;
 	font-size: 2em;
@@ -27,10 +26,28 @@ nav ul li{
 	font-family: "Cambay", arial, sans-serif;
 } 
 
+p {
+	text-indent: 2em;
+	line-height: 1.5em;
+}
+
+blockquote {
+	display: block;
+	margin: 2em;
+	border-left: 0.25em solid #bbbbbb;
+	padding-left: 1em;
+	font-style: italic;
+	font-size: .75em;
+}
+
+blockquote span {
+	font-weight: bold;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
-    }
+}
 
 section#logo_holder {
 	padding: 5em 0em;
