@@ -6,9 +6,7 @@
 }
 
 body {
-/*background-color: #9cbdd5;*/
-/*background: url('../images/neurons.jpg');*/
-	background-color: #9cbdd5;
+	background-color: #8adfcf;
 	position: relative;
 }
 
@@ -71,15 +69,19 @@ section#logo_holder {
 
 div#content{
 	background-color: #f0ddc5;
-	width: 50%;
+	width: 70%;
 	margin: 0em auto;
-	padding: 4em 8em;
+	padding: 5% 5%;
+	box-shadow: 0 0 1em .2em #bbbbbb;
 }
 
 .introimage {
 	float: right;
 	width: 50%;
-	
+	box-shadow: 0 0 1em .1em #555555;
+    border: .1em solid #fff;
+	margin-left: 2em;
+    margin-bottom: 1em;
 }
 
 #link {
@@ -90,4 +92,12 @@ div#content{
 .biopic {
 	float: left;
 	width: 25%;
+	margin-right: 2em;
+    margin-bottom: 1em;
+}
+
+#navicon {
+	float: right;
+	height: 80%;
+	margin-right: 2%;
 }
