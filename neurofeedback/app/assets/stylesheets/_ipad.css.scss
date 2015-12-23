@@ -21,3 +21,17 @@ nav ul li {
 #navicon{
 	display: block;
 }
+
+#contact_contaier {
+	float: none;
+	width: 90%
+}
+
+#map_container {
+	float: none;
+	width: 90%;
+
+	iframe {
+		width: 100%;
+	}
+}
