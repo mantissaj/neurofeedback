@@ -151,33 +151,39 @@ text-align: left;
 	margin: 2em auto;
 	background-color: #eeeeee;
 	border-radius: 2em;
-	padding: 3em;
-	margin: 2em;
+	padding: 1.5em;
+	margin: 2.5em .5em;
 
 	.input {
 		label {
 		  display: inline-block;
 		  width: 5em;
-		  
+		  vertical-align: top;
+		  margin-top: 1em;
 		}
 
 		input, textarea {
 			line-height: 1em;
 		    padding: .5em;
-		    border: .1em solid #888888;
-		    box-shadow: inset 0 0 .8em .2em #ddd;
+		    border: .1em solid #bbbbbb;
+		    box-shadow: inset 0 0 .3em -.05em #dddddd, 0 .02em 0 0.07em #fff;
 		    border-radius: .2em;
 		    font-size: 1em;
 		    margin: 1em;
+		    color: #888888;
 		}
 
 		input {
-			width: 40%;
+			width: 60%;
 		}
 
 		textarea {
-			width: 50%;
+			width: 60%;
 			height: 5em;
 		}
 	}
+}
+
+#map_container {
+	margin: 2.5em auto;
 }
