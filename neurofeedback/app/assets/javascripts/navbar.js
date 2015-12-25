@@ -1,16 +1,24 @@
+function setup_resize_listener() {
+	$(window).on('resize', function() {
+		if ($('nav#navipad ul').is(':visible')) {
+			$('nav#navipad ul').hide();
+		}
+	});
+}
+
 $(document).ready(function() {
 	$('#navicon').on('click', function() {
-		if ($('nav ul').is(':visible')) {
-			$('nav ul').removeClass('mobile');
-			// $('nav ul').hide();
+		if ($('nav#navipad ul').is(':visible')) {
+			$('nav#navipad ul').hide();
 		}
 		else {
-			$('nav ul').addClass('mobile');
-			$('nav ul').show();
+			$('nav#navipad ul').show();
 		}
 	});
 
-	$('nav ul li').on('click', function() {
-		$('nav ul.mobile').hide();
+	$('nav#navipad ul li').on('click', function() {
+		$('nav#navipad ul').hide();
 	});
+
+	setup_resize_listener();
 });

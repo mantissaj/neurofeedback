@@ -1,5 +1,13 @@
-nav ul li {
-	display: inline-block;
+nav#navdesktop {
+	box-shadow: 0 .05em .3em 0 #000;
+
+	ul li {
+		display: inline-block;
+	}
+}
+
+nav#navipad {
+	display: none;
 }
 
 #navicon{
