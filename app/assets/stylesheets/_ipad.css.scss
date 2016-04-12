@@ -1,0 +1,36 @@
+nav#navdesktop ul {
+	display: none;
+}
+
+nav#navipad ul {
+	background-color: #000000;
+	top: 4em;
+	position: fixed;
+	width: 100%;
+
+	li {
+		line-height: 2em;
+		font-variant: small-caps;
+		font-size: 2em;
+		padding: 0 0.5em;
+		font-family: "Cambay", arial, sans-serif;
+	}
+}
+
+#navicon{
+	display: block;
+}
+
+#contact_contaier {
+	float: none;
+	width: 90%
+}
+
+#map_container {
+	float: none;
+	width: 90%;
+
+	iframe {
+		width: 100%;
+	}
+}

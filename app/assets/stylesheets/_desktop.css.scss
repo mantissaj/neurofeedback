@@ -1,0 +1,31 @@
+nav#navdesktop {
+	box-shadow: 0 .05em .3em 0 #000;
+
+	ul li {
+		display: inline-block;
+	}
+}
+
+nav#navipad {
+	display: none;
+}
+
+#navicon{
+	display: none;
+}
+
+#contact_container {
+	float: left;
+	width: 40%;
+	min-width: 350px;
+}
+
+#map_container {
+	float: right;
+	width: 50%;
+	min-width: 300px;
+
+	iframe {
+		width: 100%
+	}
+}
