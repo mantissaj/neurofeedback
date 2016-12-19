@@ -56,11 +56,18 @@ nav ul li {
 	font-family: "Cambay", arial, sans-serif;
 } 
 
-
-a {
-    color: #fefee6;
+a:link { 
     text-decoration: none;
-}
+    color: #fefee6;
+    }
+    
+a:hover {
+    color: #00ff00;
+    }
+    
+a:visited{
+    color: #ee9a00;
+    }
 
 section#logo_holder {
 	padding: 5.5em 0em 1em 0em;
@@ -96,7 +103,12 @@ div#content{
 }
 
 #expectations{
-
+	background-color: #acb5bc;
+	width: 70%;
+	margin: auto;
+	padding: 3% 8%;
+	border-radius: 25px;
+	border: .1em solid #000;
 	ol {
 		list-style-position: inside;
 
@@ -112,12 +124,18 @@ div#content{
 	width: 50%;
 	box-shadow: 0 0 1em .1em #555555;
     border: .1em solid #fff;
-	margin: 2em 2em;
+	margin: 4em 0em 1em 2em;
 }
 
 #link {
 	text-decoration: underline;
-	color: #bbbbbb;
+	color: #444444;
+}
+
+#brainwaves{
+	width: 50%;
+	float: left;
+	padding: 1em 1em 1em 0em;
 }
 
 .biopic {
@@ -132,21 +150,27 @@ div#content{
 	width: 15%;
 	margin-left: 1em;
 	margin-bottom: 1em;
+	border: .1em solid #000;
 }
 
 blockquote {
 	display: block;
-	margin: 2em;
-	border-left: 0.25em solid #bbbbbb;
+	margin: 2em 8em;
+	border-left: 0.25em solid #e08cc1;
 	padding-left: 1em;
 	font-style: italic;
-	font-size: .75em;
+	font-size: .9em;
 }
 
 blockquote span {
 	font-weight: bold;
 }
 
+#neuronsignaling {
+	float: right;
+	width: 50%;
+	padding: 1em 0em 1em 1em;
+}
 #navicon {
 	float: right;
 	height: 80%;
